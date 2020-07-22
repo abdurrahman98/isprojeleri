@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    {#    <link rel="stylesheet" href="css/style.css">#}
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+<form method="post">
+    {% csrf_token %}
+    <div class="inputdiv">
+        <input name="web" class="text" type="text"><br>
+        <input name="arama" type="text">
+        <input type="submit" id="button">
+
+    </div>
+</form>
+<div style="height: 50px" id="veri"></div>
+
+<script src="../static/js/script.js"></script>
+<script>
+
+</script>
+
+</body>
+</html>
